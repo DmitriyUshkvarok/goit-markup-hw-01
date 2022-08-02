@@ -1,197 +1,143 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-  </head>
-  <body>
-    <!-- header -->
-    <header class="top-header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/normalize.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="top-header">
+    <div class="container">
+      <div class="header-logo">
+        <a href="#"><span class="logo-text-left">Web</span><span class="logo-text-right">Studio</span></a>
+      </div>
+      <!-- navigation -->
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li>Студія</li>
+          <li>Портфоліо</li>
+          <li>Контакти</li>
+        </ul>
+      </nav>
+      <!-- contact list -->
+      <ul class="contact-list">
+        <li>
+          <a class="contact-mail" target="_blank" href="mailto:info@devstudio.com"></a>info@devstudio.com
+        </li>
+        <li>
+          <a class="contact-tel" target="_blank" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </div>
+    <!--header container closed-->
+  </header>
+  <!-- promo-block -->
+  <section class="header-promo">
+    <h1 class="header-title">Ефективні рішення для вашого бізнесу</h1>
+    <button type="button" class="btn-promo" value="Замовити послугу">Замовити послугу</button>
+  </section>
+  <!-- peculiarities -->
+  <main>
+    <section class="peculiarities">
       <div class="container">
-        <div class="header-logo">
-          <a href="#"
-            ><span class="logo-text-left">Web</span
-            ><span class="logo-text-right">Studio</span></a
-          >
-        </div>
-        <!-- navigation -->
-        <nav class="header-nav">
-          <ul class="nav-list">
-            <li>Студія</li>
-            <li>Портфоліо</li>
-            <li>Контакти</li>
-          </ul>
-        </nav>
-        <!-- contact list -->
-        <ul class="contact-list">
+        <ul class="peculiarities-list">
           <li>
-            <a
-              class="contact-mail"
-              target="_blank"
-              href="mailto:info@devstudio.com"
-            ></a
-            >info@devstudio.com
+            <h3 class="peculiarities-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="peculiarities-description">
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
           </li>
           <li>
-            <a class="contact-tel" target="_blank" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+            <h3 class="peculiarities-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="peculiarities-description">
+              Завдання організації, особливо рамки і місце навчання кадрів
+              тягне у себе.
+            </p>
+          </li>
+          <li>
+            <h3 class="peculiarities-title">ПЛАНУВАННЯ</h3>
+            <p class="peculiarities-description">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li>
+            <h3 class="peculiarities-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="peculiarities-description">
+              Значимість цих проблем настільки очевидна, що реалізація
+              планових завдань
+            </p>
           </li>
         </ul>
       </div>
-      <!--header container closed-->
-    </header>
-
-    <!-- promo-block -->
-    <section class="header-promo">
-      <h1 class="header-title">Ефективні рішення для вашого бізнесу</h1>
-      <input type="button" class="btn-promo" value="Замовити послугу" />
+      <!--peculiarities container closed-->
     </section>
-
-    <!-- peculiarities -->
-    <main>
-      <section class="peculiarities">
-        <div class="container">
-          <ul class="peculiarities-list">
-            <li>
-              <h3 class="peculiarities-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="peculiarities-description">
-                Ідейні міркування, і навіть початок повсякденної роботи з
-                формування позиції.
-              </p>
-            </li>
-            <li>
-              <h3 class="peculiarities-title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="peculiarities-description">
-                Завдання організації, особливо рамки і місце навчання кадрів
-                тягне у себе.
-              </p>
-            </li>
-            <li>
-              <h3 class="peculiarities-title">ПЛАНУВАННЯ</h3>
-              <p class="peculiarities-description">
-                Так само консультація з широким активом значною мірою зумовлює.
-              </p>
-            </li>
-            <li>
-              <h3 class="peculiarities-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="peculiarities-description">
-                Значимість цих проблем настільки очевидна, що реалізація
-                планових завдань
-              </p>
-            </li>
-          </ul>
-        </div>
-        <!--peculiarities container closed-->
-      </section>
-
-      <!-- craft -->
-      <section class="craft">
-        <div class="container">
-          <h2 class="craft-title">Чим ми займаємося</h2>
-          <ul class="craft-list">
-            <li>
-              <img
-                src="./images/img-wprk-1.jpg"
-                alt="work-photo"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/img-work-2.jpg"
-                alt="work-photo"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/img-work-3.jpg"
-                alt="work-photo"
-                width="370"
-                height="294"
-              />
-            </li>
-          </ul>
-        </div>
-        <!--craft-container closed-->
-      </section>
-
-      <!-- comands -->
-      <section class="comands">
-        <div class="container">
-          <h2 class="comands-title">Наша команда</h2>
-          <ul class="comands-list">
-            <li>
-              <img
-                class="command-photo"
-                src="./images/igor.jpg"
-                alt="photo employee"
-                width="270"
-                height="260"
-              />
-              <p class="specialist-name">Ігор Дем'яненко</p>
-              <span class="profession">Product Designer</span>
-            </li>
-            <li>
-              <img
-                class="command-photo"
-                src="./images/olga.jpg"
-                alt="photo employee"
-                width="270"
-                height="260"
-              />
-              <p class="specialist-name">Ольга Рєпіна</p>
-              <span class="profession">Frontend Developer</span>
-            </li>
-            <li>
-              <img
-                class="command-photo"
-                src="./images/mikola.jpg"
-                alt="photo employee"
-                width="270"
-                height="260"
-              />
-              <p class="specialist-name">Микола Тарасов</p>
-              <span class="profession">Marketing</span>
-            </li>
-            <li>
-              <img
-                class="command-photo"
-                src="./images/maksim.jpg"
-                alt="photo employee"
-                width="270"
-                height="260"
-              />
-              <p class="specialist-name">Михайло Єрмаков</p>
-              <span class="profession">UI Designer</span>
-            </li>
-          </ul>
-        </div>
-        <!--commands container closed-->
-      </section>
-    </main>
-    <!--main-close-->
-
-    <!-- footer -->
-    <footer class="footer">
+    <!-- craft -->
+    <section class="craft">
       <div class="container">
-        <div class="footer-logo">
-          <a href="#"
-            ><span class="logo-text-left">Web</span
-            ><span class="logo-text-right">Studio</span></a
-          >
-        </div>
-        <address class="footer-adress">м. Київ, пр-т Лесі Українки, 26</address>
-        <div class="footer-email">info@example.com</div>
-        <div class="footer-phone">+38 099 111 11 11</div>
+        <h2 class="craft-title">Чим ми займаємося</h2>
+        <ul class="craft-list">
+          <li>
+            <img src="./images/work-1.jpg" alt="work-photo" width="370" height="294" />
+          </li>
+          <li>
+            <img src="./images/work-2.jpg" alt="work-photo" width="370" height="294" />
+          </li>
+          <li>
+            <img src="./images/work-3.jpg" alt="work-photo" width="370" height="294" />
+          </li>
+        </ul>
       </div>
-    </footer>
-  </body>
+      <!--craft-container closed-->
+    </section>
+    <!-- comands -->
+    <section class="comands">
+      <div class="container">
+        <h2 class="comands-title">Наша команда</h2>
+        <ul class="comands-list">
+          <li>
+            <img class="command-photo" src="./images/igor.jpg" alt="photo employee" width="270" height="260" />
+            <p class="specialist-name">Ігор Дем'яненко</p>
+            <span class="profession">Product Designer</span>
+          </li>
+          <li>
+            <img class="command-photo" src="./images/olga.jpg" alt="photo employee" width="270" height="260" />
+            <p class="specialist-name">Ольга Рєпіна</p>
+            <span class="profession">Frontend Developer</span>
+          </li>
+          <li>
+            <img class="command-photo" src="./images/mikola.jpg" alt="photo employee" width="270" height="260" />
+            <p class="specialist-name">Микола Тарасов</p>
+            <span class="profession">Marketing</span>
+          </li>
+          <li>
+            <img class="command-photo" src="./images/miha.jpg" alt="photo employee" width="270" height="260" />
+            <p class="specialist-name">Михайло Єрмаков</p>
+            <span class="profession">UI Designer</span>
+          </li>
+        </ul>
+      </div>
+      <!--commands container closed-->
+    </section>
+  </main>
+  <!--main-close-->
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">
+        <a href="#"><span class="logo-text-left">Web</span><span class="logo-text-right">Studio</span></a>
+      </div>
+      <address class="footer-adress">м. Київ, пр-т Лесі Українки, 26</address>
+      <div class="footer-email">info@example.com</div>
+      <div class="footer-phone">+38 099 111 11 11</div>
+    </div>
+  </footer>
+</body>
+
 </html>
