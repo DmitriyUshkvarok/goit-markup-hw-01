@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
@@ -14,7 +14,7 @@
     <header class="top-header">
       <div class="container">
         <div class="header-logo">
-          <a href="#"
+          <a href="./index.html"
             ><span class="logo-text-left">Web</span
             ><span class="logo-text-right">Studio</span></a
           >
@@ -22,23 +22,20 @@
         <!-- navigation -->
         <nav class="header-nav">
           <ul class="nav-list">
-            <li>Студія</li>
-            <li>Портфоліо</li>
-            <li>Контакти</li>
+            <li><a class="nav-link" href="./index.html">Студія</a></li>
+            <li><a class="nav-link" href="#">Портфоліо</a></li>
+            <li><a class="nav-link" href="#">Контакти</a></li>
           </ul>
         </nav>
         <!-- contact list -->
         <ul class="contact-list">
           <li>
-            <a
-              class="contact-mail"
-              target="_blank"
-              href="mailto:info@devstudio.com"
-            ></a
-            >info@devstudio.com
+            <a class="contact-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="contact-tel" target="_blank" href="tel:+380961111111"
+            <a class="contact-tel" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </li>
@@ -46,40 +43,41 @@
       </div>
       <!--header container closed-->
     </header>
-    <!-- promo-block -->
-    <section class="header-promo">
-      <h1 class="header-title">Ефективні рішення для вашого бізнесу</h1>
-      <button type="button" class="btn-promo" value="Замовити послугу">
-        Замовити послугу
-      </button>
-    </section>
-    <!-- peculiarities -->
     <main>
+      <!-- promo-block -->
+      <section class="header-promo">
+        <h1 class="header-title">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="btn-promo" value="Замовити послугу">
+          Замовити послугу
+        </button>
+      </section>
+      <!-- peculiarities -->
       <section class="peculiarities">
         <div class="container">
+          <h2>Наші особливості</h2>
           <ul class="peculiarities-list">
             <li>
-              <h3 class="peculiarities-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <h3 class="peculiarities-title">Увага до деталей</h3>
               <p class="peculiarities-description">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
             <li>
-              <h3 class="peculiarities-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <h3 class="peculiarities-title">Пунктуальність</h3>
               <p class="peculiarities-description">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
             <li>
-              <h3 class="peculiarities-title">ПЛАНУВАННЯ</h3>
+              <h3 class="peculiarities-title">Планування</h3>
               <p class="peculiarities-description">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li>
-              <h3 class="peculiarities-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <h3 class="peculiarities-title">Сучасні технології</h3>
               <p class="peculiarities-description">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань
@@ -98,7 +96,7 @@
               <img
                 class="craft-photo"
                 src="./images/work-1.jpg"
-                alt="work-photo"
+                alt="людина працює за компьютером"
                 width="370"
                 height="294"
               />
@@ -107,7 +105,7 @@
               <img
                 class="craft-photo"
                 src="./images/work-2.jpg"
-                alt="work-photo"
+                alt="людина працює с телефоном"
                 width="370"
                 height="294"
               />
@@ -116,7 +114,7 @@
               <img
                 class="craft-photo"
                 src="./images/work-3.jpg"
-                alt="work-photo"
+                alt="людина працює с планшетом"
                 width="370"
                 height="294"
               />
@@ -134,45 +132,45 @@
               <img
                 class="command-photo"
                 src="./images/igor.jpg"
-                alt="photo employee"
+                alt="Ігор Дем'яненко посміхаеться"
                 width="270"
                 height="260"
               />
-              <p class="specialist-name">Ігор Дем'яненко</p>
-              <span class="profession">Product Designer</span>
+              <h3 class="specialist-name">Ігор Дем'яненко</h3>
+              <p class="profession">Product Designer</p>
             </li>
             <li>
               <img
                 class="command-photo"
                 src="./images/olga.jpg"
-                alt="photo employee"
+                alt="Блондинка Ольга Рєпіна посміхаеться в окулярах"
                 width="270"
                 height="260"
               />
-              <p class="specialist-name">Ольга Рєпіна</p>
-              <span class="profession">Frontend Developer</span>
+              <h3 class="specialist-name">Ольга Рєпіна</h3>
+              <p class="profession">Frontend Developer</p>
             </li>
             <li>
               <img
                 class="command-photo"
                 src="./images/mikola.jpg"
-                alt="photo employee"
+                alt="щасливий Микола Тарасов дивиться в даль та посміхаеться"
                 width="270"
                 height="260"
               />
-              <p class="specialist-name">Микола Тарасов</p>
-              <span class="profession">Marketing</span>
+              <h3 class="specialist-name">Микола Тарасов</h3>
+              <p class="profession">Marketing</p>
             </li>
             <li>
               <img
                 class="command-photo"
                 src="./images/miha.jpg"
-                alt="photo employee"
+                alt="Михайло Єрмаков дивиться на тебе як на здобич в окулярах"
                 width="270"
                 height="260"
               />
-              <p class="specialist-name">Михайло Єрмаков</p>
-              <span class="profession">UI Designer</span>
+              <h3 class="specialist-name">Михайло Єрмаков</h3>
+              <p class="profession">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -183,17 +181,19 @@
     <!-- footer -->
     <footer class="footer">
       <div class="container">
-        <div class="footer-logo">
-          <a href="#"
-            ><span class="logo-text-left">Web</span
-            ><span class="logo-text-right">Studio</span></a
-          >
-        </div>
+        <a class="footer-logo" href="./index.html"
+          ><span class="logo-text-left">Web</span
+          ><span class="logo-text-right">Studio</span></a
+        >
         <address class="footer-adress">
           <ul class="adress-list">
-            <li>м. Київ, пр-т Лесі Українки, 26</li>
-            <li class="footer-email">info@example.com</li>
-            <li class="footer-phone">+38 099 111 11 11</li>
+            <li>
+              <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
           </ul>
         </address>
       </div>
